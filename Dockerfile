@@ -3,6 +3,9 @@ FROM debian:10
 RUN apt-get update \
  && apt-get install -y \
     curl \
+    build-essential \
+    python3 \
+    python3-pip \
     dumb-init \
     htop \
     locales \
